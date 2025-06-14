@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-
+	color: #596981;
 }
 
 h2 {
@@ -105,7 +105,7 @@ h2 {
 }
 
 h3 {
-	color: #1C6A8E
+	color: #1C6A8E;
 	font-size: 2em;
 	font-weight: bold;
 }
@@ -260,10 +260,10 @@ body {
 }
 
 #logoTxt {
-	background: url(../images/logo_img.png) top right no-repeat;
+	background: url(../images/logo_img.png) top center no-repeat;
 	background-size: contain;
 	position: absolute;
-	top: 0px;
+	top: -30px;
 	left: 1.041666666667%; /* 10/960 */
 	width: 34.791666666667%; /* 334/960 */
 	height: 67px;
@@ -315,7 +315,7 @@ header h1 span {
 	display: block;
 	float: right;
 	padding-right: 0.520833333333%; /* 5/960 */
-    padding-top:30px;
+    padding-top:60px;
 	border: none;
 	white-space: nowrap;
 }
